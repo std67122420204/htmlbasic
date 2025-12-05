@@ -6,6 +6,103 @@
     <title>Web Form</title>
 </head>
 <body>
-    <h1 attribute: align=”center”>แบบสอบถาม</h1>
+    <h2 align="center">แบบสอบถาม</h2><hr>   
+        <form >
+        <table align="center" style="background-color:darkseagreen; border="1">
+        <thead >
+            <tr>
+                
+            <td><form method="post" action="" novalidate ><b style="font-size: 25px;">ข้อมูลแบบสอบถาม</b> <br>   
+        <label for="Name">ชื่อ-นามสกุล &nbsp;</label>     
+        <input placeholder="กรอกชื่อ-นามสกุล" type="Name" name="Name" id="Name" type="text" style="width: 500px;" ><br>
+        <label for="StudentID">รหัสนักศึกษา&nbsp;</label>
+        <input type="StudentID" name="StudentID" id="StudentID" type="text" style="width: 500px;"><br>
+        
+                </td>
+        
+            </tr>
+         </thead>
+            <tbody>
+                <tr>
+                    <td>
+                <h3>
+                <b style="font-size: 20px;">เพศ</b>
+                <label style="font-size: 18px; font-weight: normal;">
+                <input type="radio" name="gender" value="male"> ชาย
+                </label>
+                    &nbsp;
+                <label style="font-size: 18px; font-weight: normal;">
+                <input type="radio" name="gender" value="female"> หญิง
+                </label>
+                </h3>
+                <h4><b style="font-size: 20px;">คณะ</b> &nbsp;<select name="คณะ" id="Faculty">
+                    <option value="ครุศาสตร์">คณะครุศาสตร์</option>
+                    <option value="วิทยาศาสตร์">คณะวิทยาศาสตร์</option>
+                    <option value="มนุษยศาสตร์">คณะมนุษยศาสตร์และสังคมศาสตร์</option>
+                    <option value="บริหาร">คณะบริหารธุรกิจและการจัดการ</option>
+                    <option value="เทคโน">คณะเทคโนโลยีอุตสาหกรรม</option>
+                    <option value="เกษตร">คณะเกษตรศาสตร์</option>
+                    <option value="นิติ">คณะนิติศาสตร์</option>
+                    <option value="แพทย์แผนไทย">คณะแพทย์แผนไทยและแพทย์ทางเลือก</option>
+                    <option value="สาธา">คณะสาธารณสุขศาสตร์</option>
+                    <option value="พยาบาล">คณะพยาบาลศาสตร์</option>
+                    <option value="วิทยาการณ์คอม">คณะวิทยาการณ์คอมพิวเตอร์</option>
+                    </tr>
+                </select></h4></td><br>
+            
+            </tbody>
+            
+            <tbody>
+                 <tr>
+                    <td><b style="font-size: 20px;">แม่สีที่ชอบ</b><br>
+                    <input type="checkbox" name="color" value="red"> สีแดง
+                    <input type="checkbox" name="color" value="green"> สีเขียว
+                    <input type="checkbox" name="color" value="bule"> สีน้ำเงิน
+                </td>
+                </tr><br>
+
+                <tr>
+                    <td><b style="font-size: 20px;">ผลไม้ที่ชอบ</b><br>
+                    <input type="checkbox" name="Fruits" value="แอปเปิ้ล"> แอปเปิ้ล
+                    <input type="checkbox" name="Fruits" value="องุ่น"> องุ่น
+                    <input type="checkbox" name="Fruits" value="มะม่วง"> มะม่วง
+                    <input type="checkbox" name="Fruits" value="แก้วมังกร"> แก้วมังกร
+                    <input type="checkbox" name="Fruits" value="ฝรั่ง"> ฝรั่ง   
+                    </td>
+                    
+                </tr><br>
+
+                <tr>
+                    <td><b style="font-size: 20px;">อาหารที่ชอบ</b><br>
+                    <input type="checkbox" name="Food" value="ข้าวผัด"> ข้าวผัด
+                    <input type="checkbox" name="Food" value="ส้มตำ"> ส้มตำ
+                    <input type="checkbox" name="Food" value="ยำ"> ยำ
+                    <input type="checkbox" name="Food" value="ข้าวมันไก่"> ข้าวมันไก่
+                    <input type="checkbox" name="Food" value="ไก่ทอด"> ไก่ทอด
+                    <input type="checkbox" name="Food" value="กะเพรา"> กะเพรา
+                    <input type="checkbox" name="Food" value="หมูกรอบ"> หมูกรอบ   
+                </td>
+                </tr><br>
+                
+
+            </tbody>
+
+
+            <tfoot>
+                <tr align="center">
+                    <td><input type="submit" value="ส่งข้อมูล" >
+                    </td>
+                    
+                </tr>
+                
+
+
+             </tfoot>
+
+
+
+            
+    </table>
+    </form>
 </body>
 </html>
